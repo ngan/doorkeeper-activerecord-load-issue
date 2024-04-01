@@ -1,5 +1,9 @@
 This is a sample app to reproduce an issue with the doorkeeper gem loading ActiveRecord too early.
 
+## Preface
+
+This repo is a fresh Rails 7.1 app with no application code. I've vendored the activerecord gem into `vendor/activerecord-7.1.3.2` to add some `puts`.
+
 ## Normal behavior
 
 To see the normal behavior (without `doorkeeper` installed):
