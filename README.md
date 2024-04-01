@@ -2,7 +2,8 @@ This is a sample app to reproduce an issue with the doorkeeper gem loading Activ
 
 ## Preface
 
-This repo is a fresh Rails 7.1 app with no application code. I've vendored the activerecord gem into `vendor/activerecord-7.1.3.2` to add some `puts`.
+This repo is a fresh Rails 7.1 app with no application code. I've vendored the activerecord gem into `vendor/activerecord-7.1.3.2` to add some `puts`:
+https://github.com/ngan/doorkeeper-activerecord-load-issue/blob/main/vendor/activerecord-7.1.3.2/lib/active_record/railtie.rb#L252-L261
 
 ## Normal behavior
 
